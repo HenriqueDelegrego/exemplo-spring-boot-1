@@ -12,7 +12,7 @@
 	<artifactId>exemplo-spring-boot-1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>exemplo-spring-boot-1</name>
-	<description>Exemplo inicial de Spring Boot, utilizando o contexto de produtos</description>
+	<description>Exemplo inicial de CRUD completo no Spring Boot, utilizando o contexto de produtos</description>
 	<url/>
 	<licenses>
 		<license/>
