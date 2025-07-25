@@ -9,7 +9,7 @@ import jakarta.persistence.Table;
 // Indica que esta classe é uma entidade JPA
 @Entity
 
-//Define o nome da tabela no banco de dados que esta entidade representa
+// Define o nome da tabela no banco de dados que esta entidade representa
 @Table (name = "produto")
 public class Produto {
 
