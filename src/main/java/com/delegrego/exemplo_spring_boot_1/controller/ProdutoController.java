@@ -45,7 +45,7 @@ public class ProdutoController {
 	}
 
 	// Delete
-	@DeleteMapping("produtos/{id}")
+	@DeleteMapping("/produtos/{id}")
 	public void deletarProduto(@PathVariable int id) {
 		servico.deletarProduto(id);
 	}
