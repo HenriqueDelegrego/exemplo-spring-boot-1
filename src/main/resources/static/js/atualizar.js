@@ -1,11 +1,15 @@
-document.getElementById('formulario').addEventListener('submit', function (e) {
+const formulario = document.getElementById('formulario');
+
+formulario.addEventListener('submit', function (e) {
     e.preventDefault();
 
+    // Monta o objeto
     const produto = {
         id: parseInt(document.getElementById('id').value),
         nomeProduto: document.getElementById('nome').value,
         preco: parseFloat(document.getElementById('preco').value)
     };
+
     // Envia o objeto 'produto' para o backend usando o método PUT
     fetch('http://localhost:8080/produtos', {
         method: 'PUT',

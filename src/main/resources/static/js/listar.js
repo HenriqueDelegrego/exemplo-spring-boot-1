@@ -1,4 +1,5 @@
-// Faz uma requisição GET (GET é o método padrão do fetch, por isso não é necessário especificar)
+// Faz uma requisição GET
+// GET é o método padrão do fetch, por isso não é necessário especificar
 fetch('http://localhost:8080/produtos')
     .then(response => response.json())
     .then(listaProdutos => {
