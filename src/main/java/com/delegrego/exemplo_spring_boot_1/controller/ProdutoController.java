@@ -21,7 +21,7 @@ import com.delegrego.exemplo_spring_boot_1.service.ProdutoService;
 //Permite requisições de outras origens
 @CrossOrigin
 public class ProdutoController {
-    
+
 	// Injeta automaticamente uma instância de ProdutoService
 	@Autowired
 	ProdutoService servico;

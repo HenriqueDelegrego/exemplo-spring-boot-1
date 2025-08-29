@@ -1,6 +1,5 @@
 package com.delegrego.exemplo_spring_boot_1.model;
 
-
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -10,13 +9,13 @@ import jakarta.persistence.Table;
 @Entity
 
 // Define o nome da tabela no banco de dados que esta entidade representa
-@Table (name = "produto")
+@Table(name = "produto")
 public class Produto {
 
-    // Define o campo 'id' como a chave primária da tabela
+	// Define o campo 'id' como a chave primária da tabela
 	@Id
-	
-    // Mapeia o campo 'id' para a coluna 'id' no banco de dados
+
+	// Mapeia o campo 'id' para a coluna 'id' no banco de dados
 	@Column(name = "id")
 	private int id;
 
@@ -26,7 +25,7 @@ public class Produto {
 	@Column(name = "preco")
 	private double preco;
 
-    // Construtor padrão (necessário para o JPA)
+	// Construtor padrão (necessário para o JPA)
 	public Produto() {
 
 	}
